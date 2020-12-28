@@ -21,3 +21,13 @@ executable bassbull
                        vector,
                        cassava
   default-language:    Haskell2010
+
+test-suite tests
+  ghc-options:         -Wall
+  type:                exitcode-stdio-1.0
+  main-is:             Tests.hs
+  hs-source-dirs:      tests
+  build-depends:       base,
+                       bassbull,
+                       hspec
+  default-language:    Haskell2010
