@@ -1,5 +1,3 @@
--- src/Bassbull.hs
-
 module Bassbull where
 
 import qualified Data.ByteString.Lazy as BL

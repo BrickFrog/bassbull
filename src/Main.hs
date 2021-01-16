@@ -1,6 +1,6 @@
 module Main where
 
-import Bassbull()
+import Bassbull
 
 main :: IO ()
 main = do
